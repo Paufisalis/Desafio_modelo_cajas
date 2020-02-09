@@ -1,0 +1,165 @@
+div{
+    display: inline-block;
+}
+
+/* Bandera Española */
+
+.España{
+    background-color: red;
+    width: 400px;
+    height: 250px;
+    border: solid 1px;
+   
+}
+
+.esp-am{
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+} 
+
+/*
+-----------------------------
+Bandera Japonesa */
+
+ .Japon{
+   
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border: solid 1px;
+    
+}
+
+.c-j{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    left: 550px;
+}   
+
+/* 
+-----------------------------
+Bandera Dinamarca */
+
+.Dinamarca{
+   
+    background-color: red;
+    width: 400px;
+    height: 250px;
+    border: solid 1px;
+ 
+}
+
+.e-d{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    clip-path: polygon(0 45%, 28% 45%, 28% 0, 35% 0, 35% 45%, 100% 45%, 100% 55%, 35% 55%, 35% 100%, 28% 100%, 28% 55%, 0 55%);
+} 
+
+/*
+-----------------------------
+Bandera Emiratos Árabes */
+
+.Emiratos{
+    
+    background-color: black;
+    width: 400px;
+    height: 250px;
+    border: solid 1px;
+   
+}
+
+.emi-gre{
+    background-color: green;
+    width: 400px;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.emi-wh{
+    background-color: white;
+    width: 400px;
+    height: 80px;
+    position: relative;
+    top: -5px;
+    z-index: 2;
+    
+}
+
+ .emi-red{
+    background-color: red;
+    width: 90px;
+    height: 250px;
+    position: relative;
+    top: -168px;
+    z-index: 3;
+    
+    
+} 
+
+/*
+-----------------------------
+Bandera Puerto Rico */
+
+ .PuertoRico{
+     margin-left: 4px;
+    background-color: red;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 50px;
+    border: solid 1px;
+    position: absolute;
+}
+
+.pr-bl{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+}
+
+.pr-bl2{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    top: 100px;  
+}
+
+.triangulo {
+    border-left: 200px solid blue;
+    border-top: 125px solid transparent;
+    border-bottom: 125px solid transparent;
+    position: relative;
+    z-index: 1;
+    top: -107px;
+}
+
+.estrella{
+    left: -180px;
+    top: -190px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+
+
